@@ -1,3 +1,26 @@
 {
-  "name": "web-fundamental-learning"
+  "private": true,
+  "name": "web-fundamental-learning",
+  "type": "module",
+  "scripts": {
+    "start": "tsx cli.ts"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "rehype-parse": "^9.0.1",
+    "rehype-remark": "^10.0.1",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.14",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@10.33.0"
 }
