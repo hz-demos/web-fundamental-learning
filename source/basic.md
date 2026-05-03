@@ -69,4 +69,31 @@
 
 ---
 
+## 组合示例
+
+### 嵌套列表
+
+- List Item 1
+- List Item 2
+- List Item 3
+  - Nest List Item 1
+  - Nest List Item 2
+  - Nest List Item 3
+
+1. Achievement one
+2. Achievement two
+3. Achievement three
+   1. sub-achievement one
+   2. sub-achievement two
+   3. sub-achievement three
+
+---
+
+1. Achievement one
+2. Achievement two
+3. Achievement three
+   - sub-achievement one
+   - sub-achievement two
+   - sub-achievement three
+
 这是页面的页脚。
